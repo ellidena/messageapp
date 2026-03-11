@@ -19,7 +19,7 @@ public class MessageRepository {
 
     private void populateMessages() {
         while (messageId <= 3) {
-            messages.add(new Message(messageId, "Velkommen til " + messageId + ".semester"));
+            messages.add(new Message(messageId, "Welcome to " + messageId + ".semester"));
             messageId++;
         }
     }
